@@ -45,3 +45,47 @@
 - `.` : Repeat the last command.
 - `:%!` : Run shell command.
 - `:help <command>` : Get help on a command.
+
+## 📖 Working with Text in Vim
+
+### Selecting Text
+
+In Vim, you can select text using visual mode:
+
+1. **Enter Visual Mode**:
+   - Press `v` for **character-wise** selection.
+   - Press `V` for **line-wise** selection.
+   - Press `Ctrl` + `v` for **block** selection.
+
+2. **Select Text**:
+   - Move the cursor using arrow keys or `h`, `j`, `k`, `l` to expand your selection.
+   - You can also use movement commands like `w` (word), `b` (back), or `G` (to the end of the file).
+
+3. **Perform Actions on Selected Text**:
+   - **Yank (Copy)**: Press `y` to copy the selected text.
+   - **Cut (Delete)**: Press `d` to delete the selected text.
+   - **Change**: Press `c` to change the selected text (deletes and enters insert mode).
+
+4. **Exit Visual Mode**:
+   - Press `Esc` to return to normal mode.
+
+### Copying to Clipboard
+
+To copy selected text to the system clipboard:
+
+1. **Select Text** as described above.
+2. **Yank to Clipboard**: After selecting, press `"+y`:
+   - `"` indicates a register.
+   - `+` refers to the system clipboard.
+   - `y` is the yank command.
+
+### Pasting from Clipboard
+
+To paste from the system clipboard back into Vim:
+
+- Press `"+p` to paste the yanked text.
+
+### Note
+
+Ensure your version of Vim has clipboard support by running `vim --version` and looking for `+clipboard`. If it shows `-clipboard`, consider installing a version of Vim with clipboard support (like `vim-gtk` or `vim-gnome`).
+
