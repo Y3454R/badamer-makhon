@@ -1,4 +1,4 @@
-### To create a conda environment to run [alpr code](https://github.com/sergiomsilva/alpr-unconstrained)
+### ⌨️ To create a conda environment to run [alpr code](https://github.com/sergiomsilva/alpr-unconstrained) in Ubuntu 22.04.4 LTS (CPU)
   ```bash
   conda remove --name env_name --all
   conda create --name env_name python=2.7
