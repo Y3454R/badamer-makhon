@@ -8,66 +8,66 @@
   cd [directory_name]
   ```
 - **Go Up One Level**:
-```bash
-cd ..
-```
+  ```bash
+  cd ..
+  ```
 - **Go Home Directory**:
-```bash
-cd ~
-```
+  ```bash
+  cd ~
+  ```
 - **List Files and Directories**:
-```bash
-ls
-```
+  ```bash
+  ls
+  ```
 - **List All Files (including hidden)**:
-```bash
-ls -a
-```
+  ```bash
+  ls -a
+  ```
 ### Creating and Removing Directories
 - **Create a Directory**:
 
-```bash
-mkdir [directory_name]
-```
+  ```bash
+  mkdir [directory_name]
+  ```
 - **Remove an Empty Directory**:
-```bash
-rmdir [directory_name]
-```
+  ```bash
+  rmdir [directory_name]
+  ```
 - **Remove a Directory and its Contents**:
-```bash
-rm -rf [directory_name]
-```
+  ```bash
+  rm -rf [directory_name]
+  ```
 ### File Operations
 - **Copy a File**:
 
-```bash
-Copy code
-cp [source_file] [destination_file]
-```
+  ```bash
+  Copy code
+  cp [source_file] [destination_file]
+  ```
 
 - **Move/Rename a File**:
 
-```bash
-mv [source_file] [destination_file]
-```
+  ```bash
+  mv [source_file] [destination_file]
+  ```
 
 - **Delete a File**:
-```bash
-rm [file_name]
-```
+  ```bash
+  rm [file_name]
+  ```
 ### Viewing File Contents
 - ** View a File (with pagination)**:
-```bash
-less [file_name]
-```
+  ```bash
+  less [file_name]
+  ```
 - **View the First Few Lines of a File**:
-```bash
-head [file_name]
-```
+  ```bash
+  head [file_name]
+  ```
 - **View the Last Few Lines of a File**:
-```bash
-tail [file_name]
-```
+  ```bash
+  tail [file_name]
+  ```
 <!-- Searching for Text
 Search for a String in Files:
 bash
