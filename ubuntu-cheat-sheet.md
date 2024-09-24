@@ -12,7 +12,9 @@
 cd ..
 ```
 - **Go Home Directory**:
-```bash cd ~ ```
+```bash
+cd ~
+```
 - **List Files and Directories**:
 ```bash
 ls
