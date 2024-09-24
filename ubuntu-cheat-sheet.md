@@ -56,7 +56,7 @@
   rm [file_name]
   ```
 ### Viewing File Contents
-- ** View a File with pagination **:
+- **View a File (with pagination)**:
   ```bash
   less [file_name]
   ```
