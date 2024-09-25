@@ -47,3 +47,6 @@ The Lin–Kernighan algorithm is widely used in various fields, including:
 
 [wiki](https://en.wikipedia.org/wiki/Lin%E2%80%93Kernighan_heuristic)
 
+##  🕸️ Darknet
+[Darknet](https://pjreddie.com/darknet/) is an open-source neural network framework written in C and CUDA, designed for both CPU and GPU computing. It’s widely known for powering the YOLO (You Only Look Once) object detection models, which are some of the fastest and most popular real-time object detectors.
+
