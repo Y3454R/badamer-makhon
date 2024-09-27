@@ -23,3 +23,6 @@ The [Lin–Kernighan algorithm](https://en.wikipedia.org/wiki/Lin%E2%80%93Kernig
 
 ## Transfer Learning 
 need for LAMAwGUN (automatic dialogue generator from subtitle) implementation.
+
+## GraphQL 
+need for bug-book (journal book of errors) why? see chatgpt.
