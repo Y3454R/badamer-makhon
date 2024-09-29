@@ -56,6 +56,7 @@ In Vim, you can select text using visual mode:
    - Press `v` for **character-wise** selection.
    - Press `V` for **line-wise** selection.
    - Press `Ctrl` + `v` for **block** selection.
+   - `ggVG` for select all.
 
 2. **Select Text**:
    - Move the cursor using arrow keys or `h`, `j`, `k`, `l` to expand your selection.
