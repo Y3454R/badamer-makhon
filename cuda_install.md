@@ -1,5 +1,8 @@
 # How to install CUDA & cuDNN on Ubuntu 22.04
 
+[collected](https://gist.github.com/denguir/b21aa66ae7fb1089655dd9de8351a202)
+
+
 ## Install NVIDIA drivers
 
 ### Update & upgrade
