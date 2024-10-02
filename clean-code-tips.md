@@ -1,4 +1,4 @@
-(Clean Code tip: Don't put types in your names.)[https://www.linkedin.com/posts/danielmoka_clean-code-tip-dont-put-types-in-your-names-activity-7247123214915518464-ZDl7?utm_source=share&utm_medium=member_desktop]
+[Clean Code tip: Don't put types in your names.](https://www.linkedin.com/posts/danielmoka_clean-code-tip-dont-put-types-in-your-names-activity-7247123214915518464-ZDl7?utm_source=share&utm_medium=member_desktop)
 
 It's redundant, it hurts readability and you need to change the name if the type changes
 
