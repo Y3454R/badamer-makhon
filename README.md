@@ -22,7 +22,12 @@ The [Lin–Kernighan algorithm](https://en.wikipedia.org/wiki/Lin%E2%80%93Kernig
 [Darknet](https://pjreddie.com/darknet/) is an open-source neural network framework written in C and CUDA, designed for both CPU and GPU computing. It’s widely known for powering the YOLO (You Only Look Once) object detection models, which are some of the fastest and most popular real-time object detectors.
 
 ## Transfer Learning 
-need for LAMAwGUN (automatic dialogue generator from subtitle) implementation.
+need for OpenDub (automatic dialogue generator from subtitle) implementation.
 
 ## GraphQL 
 need for bug-book (journal book of errors) why? see chatgpt.
+
+## Hoisting 
+[link](https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript)
+
+[more](https://github.com/yangshun/top-javascript-interview-questions?trk=feed_main-feed-card_feed-article-content)
