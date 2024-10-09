@@ -43,6 +43,7 @@
 
 ## Miscellaneous
 - `.` : Repeat the last command.
+- To enable line numbering in Vim, use `:set number`.
 - `:%!` : Run shell command.
 - `:help <command>` : Get help on a command.
 
