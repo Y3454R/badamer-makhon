@@ -40,8 +40,7 @@
 ### File Operations
 - **Copy a File**:
 
-  ```bash
-  Copy code
+  ```shell
   cp [source_file] [destination_file]
   ```
 
