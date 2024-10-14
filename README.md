@@ -34,3 +34,6 @@ need for bug-book (journal book of errors) why? see chatgpt.
 
 ## Symlink
 A symbolic link (or symlink) is a special type of file in Unix-like operating systems that serves as a reference or pointer to another file or directory. It acts like a shortcut, allowing you to access files or directories from multiple locations without duplicating the actual data. [Explore](https://en.wikipedia.org/wiki/Symbolic_link)
+
+## Flyweight Pattern
+[link](https://refactoring.guru/design-patterns/flyweight)
