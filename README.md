@@ -37,3 +37,19 @@ A symbolic link (or symlink) is a special type of file in Unix-like operating sy
 
 ## Flyweight Pattern
 [link](https://refactoring.guru/design-patterns/flyweight)
+
+## Shadowing
+Shadowing occurs when a variable in a certain scope (like inside a function) has the same name as a variable in an outer scope (like the global scope). When this happens, the inner variable "shadows" or "hides" the outer variable, meaning that within the inner scope, any reference to that variable name will refer to the inner variable rather than the outer one.
+#### Example of Shadowing:
+
+```python
+
+x = 10  # Global variable
+
+def example_function():
+    x = 5  # Local variable, shadows the global variable
+    print(f"Inside function: {x}")  # This prints 5
+
+example_function()  # Call the function
+print(f"Outside function: {x}")  # This prints 10
+```
