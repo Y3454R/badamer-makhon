@@ -57,3 +57,8 @@ print(f"Outside function: {x}")  # This prints 10
 ## TRAINEDDATA File
 
 [A TRAINEDDATA file is an optical character recognition (OCR) model created by Tesseract.](https://fileinfo.com/extension/traineddata)
+
+## LSTM
+[link](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+## Reverse Proxy
