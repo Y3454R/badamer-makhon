@@ -53,3 +53,7 @@ def example_function():
 example_function()  # Call the function
 print(f"Outside function: {x}")  # This prints 10
 ```
+
+## TRAINEDDATA File
+
+[A TRAINEDDATA file is an optical character recognition (OCR) model created by Tesseract.](https://fileinfo.com/extension/traineddata)
