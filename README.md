@@ -64,3 +64,4 @@ print(f"Outside function: {x}")  # This prints 10
 ## Reverse Proxy
 
 ## VGSL
+## Otsu algorithm
