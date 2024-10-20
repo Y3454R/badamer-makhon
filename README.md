@@ -65,3 +65,5 @@ print(f"Outside function: {x}")  # This prints 10
 
 ## VGSL
 ## Otsu algorithm
+## Alpha Channel
+[link](https://www.linearity.io/blog/alpha-channel/)
