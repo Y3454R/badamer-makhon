@@ -69,3 +69,5 @@ print(f"Outside function: {x}")  # This prints 10
 [link](https://www.linearity.io/blog/alpha-channel/)
 ## DPI
 DPI stands for Dots per Inch, referring to the number of ink droplets a printer will produce per inch while printing an image. The more dots of ink per inch the picture has, the more detail you will see when printed. [wiki](https://en.wikipedia.org/wiki/Dots_per_inch)
+## Putty
+[wiki](https://en.wikipedia.org/wiki/PuTTY)
