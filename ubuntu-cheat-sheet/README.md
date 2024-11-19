@@ -54,6 +54,10 @@
   ```bash
   rm [file_name]
   ```
+  **Delete all files from a directory**:
+  ```bash
+  rm -r Files/*
+  ```
 ### Viewing File Contents
 - **View a File (with pagination)**:
   ```bash
