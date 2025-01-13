@@ -71,3 +71,27 @@ print(f"Outside function: {x}")  # This prints 10
 DPI stands for Dots per Inch, referring to the number of ink droplets a printer will produce per inch while printing an image. The more dots of ink per inch the picture has, the more detail you will see when printed. [wiki](https://en.wikipedia.org/wiki/Dots_per_inch)
 ## Putty
 [wiki](https://en.wikipedia.org/wiki/PuTTY)
+
+## fzf
+
+## Handling OpenCV Scripts
+
+<details> <summary>more</summary>
+
+
+#### Exiting OpenCV Programs
+If your OpenCV script gets stuck because of `cv2.imshow` and `cv2.waitKey(0)`, you can use the following methods to exit:
+
+1. **Use `Ctrl+C`:** This sends an interrupt signal to terminate the program.
+2. **Use `Ctrl+Z`:** This suspends the process. To terminate it completely:
+   - Run `jobs` to list suspended jobs.
+   - Use `kill %<job-id>` to terminate it.
+   - Alternatively, use `fg` to bring it to the foreground, then `Ctrl+C` to exit.
+
+#### Preventing Blocking Behavior
+To avoid this issue in the future:
+1. Use `cv2.waitKey(<timeout>)` with a specific timeout (e.g., `cv2.waitKey(1000)` for 1 second).
+2. Replace `cv2.imshow` calls with file-saving commands (e.g., `cv2.imwrite`).
+3. If running in a headless environment, remove GUI-related calls or use virtual displays like `Xvfb`.
+</details>
+
