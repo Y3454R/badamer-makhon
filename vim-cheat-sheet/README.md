@@ -46,6 +46,7 @@
 - To enable line numbering in Vim, use `:set number`.
 - `:%!` : Run shell command.
 - `:help <command>` : Get help on a command.
+- `>>` command in the view mode to indent a line, and `<<` to de-indent, or remove the indentation from the line. (check later ☠️)
 
 ## 📖 Working with Text in Vim
 
