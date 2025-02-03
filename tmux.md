@@ -99,6 +99,9 @@ Ctrl + b :source-file ~/.tmux.conf
 
 ---
 
+## Etc.
+| `Ctrl + b D` | Detach from the session |
+
 ## Additional Resources
 - [tmux Cheat Sheet](https://tmuxcheatsheet.com/)
 - [tmux GitHub Repository](https://github.com/tmux/tmux)
