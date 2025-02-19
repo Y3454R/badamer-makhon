@@ -95,3 +95,5 @@ To avoid this issue in the future:
 3. If running in a headless environment, remove GUI-related calls or use virtual displays like `Xvfb`.
 </details>
 
+## Snap Scrolling
+
